@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Jogo da velha!</title>
+	<script src="jogodavelha.js"></script>
+	<style>
+		table,tr,td{
+			border : 1px solid black;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="w3-third w3-container">
+		<h1>Jogador da vez : </h1>
+		
+		<img src="" id="jogadordavez">
+		<br>
+		<br>
+		<input type="button" value="Reiniciar" onclick="resetar()">
+
+	</div>
+
+	<div class="w3-third w3-container">
+		<h1>Jogo atual : </h1>
+			<table id = "table">
+				<tr>
+					<td>
+						<img src="branco.png" id="a0">
+						
+					</td>
+					<td>
+						<img src="branco.png" id="a1">
+					
+					</td>
+					<td>
+						<img src="branco.png" id="a2">
+					
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="branco.png" id="b3">
+					
+					</td>
+					<td>
+						<img src="branco.png" id="b4">
+					
+					</td>
+					<td>
+						<img src="branco.png" id="b5">
+					
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="branco.png" id="c6">
+					
+					</td>
+					<td>
+						<img src="branco.png" id="c7">
+					
+					</td>
+					<td>
+						<img src="branco.png" id="c8">
+					
+					</td>
+				</tr>
+			</table>		
+
+
+	</div>
+
+	<div class="w3-third w3-container">
+		<h1>Resultado : </h1>	
+		
+		<h2>Jogador 1 : </h2>
+		<input type="visor" name="Joga1" readonly id="jogX">
+		<br>
+		<br>
+		<h2>Jogador 2 : </h2>
+		<input type="visor" name="Joga2" readonly id="jogO">
+
+	</div>
+
+
+</body>
+</html>
