@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="scriptjuros.js"></script>
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="w3-third w3-container">
+		<div>
+			<h1>Calculadora de Juros Compostos</h1>
+			<h2>Digite seu capital: </h2> 
+			<input type="text" name="visor" id="capital">
+		</div>
+
+		<div>
+			<h2>Digite o juros: </h2>
+			<input type="text" name="visor" id="juros">
+		</div>
+
+		<div>
+			<h2>Digite os meses: </h2>
+			<input type="text" name="visor" id="tempo"> <br> <br>
+			<input type="button" value="Submit" onclick="calcular()">
+		</div>
+	</div>
+	<div class="w3-third w3-container" id="resultado">
+		<h1>Resultado: </h1>
+	</div>
+
+	<div class="w3-third w3-container">
+		<h1>Rendimento absoluto: </h1>
+		<input type="visor" id="show1" readonly>
+		<br>
+		<br>
+		<h1>Rendimento em %: </h1>
+		<input type="visor" id="show2" readonly>
+	</div>
+
+</body>
+</html>
